@@ -10,12 +10,6 @@ body{
   background-attachment: fixed;
 }
 
-@media (prefers-color-scheme: dark){
-  .background{
-    background-image: url('8df815d4-bdb7-4da1-9269-611044d43f97.png');
-  }
-}
-
 a{
   text-decoration: none;
 }
