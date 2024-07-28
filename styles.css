@@ -2,6 +2,15 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 body{
   background-image: url('8df815d4-bdb7-4da1-9269-611044d43f97.png');
   background-repeat: no-repeat;
