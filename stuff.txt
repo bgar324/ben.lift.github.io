@@ -1,0 +1,19 @@
+Catamaran Font
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+
+Montserrat Font
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+Auto-Type
+<script>
+    var typed = new Typed(".auto-type", {
+      strings: ["Computer Science Student","Bodybuilder","Gamer"],
+      typeSpeed: 75,
+      backSpeed: 60,
+      loop: true
+    })
+  </script>
