@@ -8,27 +8,36 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- favicon: ?dummy=1 allows for cache to not be cleared upon site load in order to properly load favicon -->
+  <link rel="icon" type="image/png" href="images/king-favicon.png?dummy=1" />
+  <!-- disables influence from dark reader -->
+  <meta name="darkreader-lock">
 </head>
 <body class = "background">
+  <!-- div for white overlay for background, styled in css -->
   <div class = "overlay"></div>
+  <!-- main div container -->
   <div class="container">
     <h1>Benjamin Garcia</h1>
     <p>I'm a <span class="auto-type"></span></p>
+    <!-- icon div -->
     <div class="icons">
       <a href="https://www.linkedin.com/in/btgarcia05" target="_blank">
-        <img src="linkedin-white.png" alt="LinkedIn" class ="icon">
+        <img src="images/linkedin-white.png" alt="LinkedIn" class ="icon">
       </a>
 
       <a href="https://github.com/bgar324" target="_blank">
-        <img src="github4.png" alt="GitHub" class ="icon">
+        <img src="images/github4.png" alt="GitHub" class ="icon">
       </a>
 
       <a href = "mailto:bentgarcia05@gmail.com" target="_blank">
-        <img src="mail (1).png" alt="Email Me" class ="icon">
+        <img src="images/mail (1).png" alt="Email Me" class ="icon">
       </a>
     </div>
   </div>
+  <!-- script link for autotype  -->
   <script src = "https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </body>
 <script src="script.js"></script>
 </html>
+
