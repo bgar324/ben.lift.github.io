@@ -1,7 +1,9 @@
+/* fonts */
 *{
   font-family: "Montserrat", sans-serif;
 }
 
+/* overlay styling */
 .overlay {
   position: absolute;
   top: 0;
@@ -11,24 +13,28 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 
+/* body, rather background */
 body{
-  background-image: url('8df815d4-bdb7-4da1-9269-611044d43f97.png');
+  background-image: url('images/IMG_1586.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
+/* ensuring blue underline for hyperlinks wont appear underneath images */
 a{
   text-decoration: none;
 }
 
+/* sizing */
 img{
   max-width: 30px;
   height: auto;
   margin-right: 30px;
 }
 
+/* position  */
 .container{
   margin: auto;
   position: fixed;
@@ -42,6 +48,7 @@ img{
   padding-top: 30px;
 }
 
+/* general styling for text */
 h1{
   font-size: 64px;
   margin: 0;
@@ -54,10 +61,12 @@ p{
   color: #57504d;
 }
 
+/* specific color for text that will be autotyped */
 .auto-type{
   color: #4b56db; 
 }
 
+/* when users hover over icons, they will appear as inverted over the course of .3 seconds */
 .icon{
   transition: filter 0.3s ease;
 }
