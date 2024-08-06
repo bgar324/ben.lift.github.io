@@ -13,5 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
   
   img.onload = function () {
     document.getElementById('loading-screen').style.display = 'none';
+    loadingScreen.style.opacity = 0;
   };
+  setTimeout(function() {
+    loadingScreen.style.display = 'none'
+  },1000)
 });
