@@ -12,10 +12,12 @@ document.addEventListener("DOMContentLoaded", function () {
   img.src = 'images/IMG_1586.png';
   
   img.onload = function () {
-    document.getElementById('loading-screen').style.display = 'none';
-    loadingScreen.style.opacity = 0;
+    var loadingScreen = document.getElementById('loading-screen');
+    loadingScreen.style.opacity = 0; // Trigger fade-out
+    
+    // Wait for the fade-out transition to complete before removing the element
+    setTimeout(function () {
+      loadingScreen.style.display = 'none'; // Hide the loading screen
+    }, 1000); // Matches the transition duration
   };
-  setTimeout(function() {
-    loadingScreen.style.display = 'none'
-  },1000)
 });
